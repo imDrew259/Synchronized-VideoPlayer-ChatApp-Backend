@@ -1,0 +1,31 @@
+{
+  "name": "watchparty_backend",
+  "version": "1.0.0",
+  "description": "This is the backend of watchparty web application",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "nodemon -r dotenv/config index.js",
+    "start": "node index.js"
+  },
+  "author": "Manan Kinger",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "debug": "^4.3.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "googleapis": "^92.0.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0",
+    "youtube-search-without-api-key": "^1.0.7"
+  }
+}
